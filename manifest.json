@@ -1,0 +1,12 @@
+{
+  "name": "Google Doodle Blocker",
+  "description": "Block the doodle!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/"],
+      "js": ["/removal_script.js"]
+    }
+  ]
+}
